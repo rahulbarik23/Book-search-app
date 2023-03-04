@@ -1,0 +1,230 @@
+/* body{
+    background-color: black; 
+    color: white;
+    
+}
+/* navabar css */
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* input css */
+
+/*input{
+    width: 90%;
+    padding: 10px;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+.icon {
+    padding-left: 25px;
+    background: url("https://png.pngtree.com/png-clipart/20190630/original/pngtree-vector-find-icon-png-image_4143917.jpg") no-repeat left;
+    background-size: 30px;
+    
+  }
+  img{
+    width: 300px;
+    height: 450px;
+  }
+  #cards{
+    display: flex;
+   
+    flex-wrap: wrap;
+    
+}
+.insidediv{
+    width: 20%;
+    
+
+    text-align: left;
+    padding: 1em;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+} */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:  'Inter';
+}
+
+body
+{
+    background-color: black;
+    color: #fff;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover
+{
+    color: rgb(41, 233, 233);
+}
+
+#searchdataform 
+{
+    margin: 15px 0 10px 15px;
+}
+.heading{
+    font-family:  'Inter';
+}
+#searchdataform #search
+{
+    margin: 5px 0 10px 15px;
+    width: 97%;
+    height: 3em;
+    background-color: transparent;
+    color: #fff;
+    padding-left: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#searchdataform #searchbtn
+{
+    margin: 5px 0 10px 15px;
+    width: 10em;
+    height: 2.5em;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#inputresults
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item
+{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 22em;
+    height: auto;
+    color: #fff;
+    margin: 10px;
+}
+
+.item div
+{
+    margin: 10px 0 10px 10px;
+}
+
+.item .img-cont
+{
+    display: flex;
+    justify-content: center;
+}
+
+.img-cont img
+{
+    height: 25em;
+    width: 20em;
+}
+
+.buynow
+{
+    width: 100%;
+    height: 2em;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buynow a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Search History Page */
+#history
+{
+    color: #fff;
+    margin: 10px;
+}
+
+.info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#delhistory
+{
+    width: 10em;
+    height: 2.5em;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.hist-item
+{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px 5px 5px 5px; */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.query-link
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.query-link:hover
+{
+    color: rgb(33, 188, 240);
+}
